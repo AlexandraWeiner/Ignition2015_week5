@@ -29,6 +29,7 @@ HTML and CSS
 - What is the difference between the <%= and <% tags?
 The former displays what is returned in the tag. 
 - What is a view partial?
+
 - How do you insert a partial into your view?
 - How can you tell that a view file is a partial?
 - How do you pass a local variable to a partial?
