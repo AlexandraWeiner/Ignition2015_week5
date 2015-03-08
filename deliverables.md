@@ -1,7 +1,7 @@
 #### Deliverables for week 5 Rails MVC
 ##### Odin Project Routing Guide Questions:
 - What is the "Root" route?
-  It is a route that tells the website where to take users when they click on your webpage. 
+   It is a route that tells the website where to take users when they click on your webpage. 
 - What are the seven RESTful routes for a resource?
   The actions are index, show, new, create, edit, update, destroy.
 - Which RESTful routes share the same URL but use different verbs?
