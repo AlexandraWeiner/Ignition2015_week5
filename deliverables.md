@@ -15,12 +15,19 @@
 
 ##### Odin Project Views Guide Questions:
 - What is a layout?
+  A preset piece of the webpage that rails creators formatted to every page to save time because it exists on all pages.
 - What's the difference between a "view template" and a "layout"?
+ View templates provide specific loops while layouts are general webpage formats.**
 - What is a "Preprocessor"?
+ A special way of executing ruby so specific features can loop etc and turn back into the original view. 
 - Why are preprocessors useful?
+  They allow you to have more complex functions for individual pages.**
 - How do you make sure a preprocessor runs on your file?
+ Name the file .erb. 
 - What's the outputted filetype of a preprocessed *.html.erb file? What about a *.css.scss file?
+HTML and CSS
 - What is the difference between the <%= and <% tags?
+The former displays what is returned in the tag. 
 - What is a view partial?
 - How do you insert a partial into your view?
 - How can you tell that a view file is a partial?
