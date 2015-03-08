@@ -1,11 +1,17 @@
 #### Deliverables for week 5 Rails MVC
 ##### Odin Project Routing Guide Questions:
 - What is the "Root" route?
+  It is a route that tells the website where to take users when they click on your webpage. 
 - What are the seven RESTful routes for a resource?
+  The actions are index, show, new, create, edit, update, destroy.
 - Which RESTful routes share the same URL but use different verbs?
+  show, update, destroy and create, index.
 - How do you specify an ID or other variable in a route?
+  Prepend it with a colon.
 - How can you easily write all seven RESTful routes in Rails?
+  resources :posts
 - What is the Rails helper method that creates the HTML for links?
+  link_to "text", url
 
 ##### Odin Project Views Guide Questions:
 - What is a layout?
