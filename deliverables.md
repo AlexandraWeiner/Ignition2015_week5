@@ -27,14 +27,22 @@
 - What's the outputted filetype of a preprocessed *.html.erb file? What about a *.css.scss file?
 HTML and CSS
 - What is the difference between the <%= and <% tags?
-The former displays what is returned in the tag. 
+The former displays what is returned in the tag. The latter is used when you don't actually want it displayed, but you still want the things inside to occur (like if each statements).
 - What is a view partial?
-
+A view partial allows for you to use HTML files across multiple files.
 - How do you insert a partial into your view?
+Name the file something like _user_form.html.erb and render them using <%= render "shared/some_partial"%>. **
 - How can you tell that a view file is a partial?
+The render syntax shows that the view file is a partial. 
 - How do you pass a local variable to a partial?
+ <%= render "shared/your_partial", :locals => { :user => @user } %>
 - What's the magical Rails shortcut for rendering a User? A bunch of Users?
+-     <h1>Users</h1>
+    <ul>
+      <%= render @users %>
+    </ul>
 - What are asset tags and why are they used?
+Asset tags locate files based on their name and render the HTML for them. They are used to grab images. 
 
 ##### Link to Odin Project Basic Routes, Views and Controllers repo: [my odin repo](<linkhere>)
 ##### Link to Hartl's Rails Tutorial Chapter 5 repo: [my hartl's repo](<linkhere>)
