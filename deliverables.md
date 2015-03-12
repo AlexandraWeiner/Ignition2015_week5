@@ -37,12 +37,14 @@ The render syntax shows that the view file is a partial.
 - How do you pass a local variable to a partial?
  <%= render "shared/your_partial", :locals => { :user => @user } %>
 - What's the magical Rails shortcut for rendering a User? A bunch of Users?
-     <h1>Users</h1>
+     <p>
+    <h1>Users</h1>
     <ul>
       <%= render @users %>
     </ul>
+    </p>
 - What are asset tags and why are they used?
 Asset tags locate files based on their name and render the HTML for them. They are used to grab images. 
 
-##### Link to Odin Project Basic Routes, Views and Controllers repo: [my odin repo](<linkhere>)
-##### Link to Hartl's Rails Tutorial Chapter 5 repo: [my hartl's repo](<linkhere>)
+##### Link to Odin Project Basic Routes, Views and Controllers repo: [my odin repo](<https://github.com/AlexandraWeiner/rest-tester/commit/0c687d7006aab2500179b1c3f49b528b095aad46>)
+##### Link to Hartl's Rails Tutorial Chapter 5 repo: [my hartl's repo](<https://github.com/econno11y/Ignition2015_week4-sample_app>)
