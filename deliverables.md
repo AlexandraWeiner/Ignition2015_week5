@@ -37,7 +37,7 @@ The render syntax shows that the view file is a partial.
 - How do you pass a local variable to a partial?
  <%= render "shared/your_partial", :locals => { :user => @user } %>
 - What's the magical Rails shortcut for rendering a User? A bunch of Users?
-    */ <h1>Users</h1>
+     <h1>Users</h1>
     <ul>
       <%= render @users %>
     </ul>
