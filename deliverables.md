@@ -37,12 +37,12 @@ The render syntax shows that the view file is a partial.
 - How do you pass a local variable to a partial?
  <%= render "shared/your_partial", :locals => { :user => @user } %>
 - What's the magical Rails shortcut for rendering a User? A bunch of Users?
-     <p>
+```
     <h1>Users</h1>
     <ul>
       <%= render @users %>
     </ul>
-    </p>
+```
 - What are asset tags and why are they used?
 Asset tags locate files based on their name and render the HTML for them. They are used to grab images. 
 
